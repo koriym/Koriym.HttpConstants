@@ -10,7 +10,7 @@ Constants only.
 use Koriym\HttpConstants\HttpStatusCode;
 
 http_response_code(StatusCode::BAD_REQUEST);
-header(ResponseHeaders::CACHE_CONTROL. ': max-age=3600');
+header(ResponseHeaders::CACHE_CONTROL . ': max-age=3600');
 ```
 
 ### Install
