@@ -8,9 +8,17 @@ Constants only.
 ```php
 
 use Koriym\HttpConstants\HttpStatusCode;
+use Koriym\HttpConstants\RequestHeaders;
+use Koriym\HttpConstants\ResponseHeaders;
+use Koriym\HttpConstants\MediaType;
+use Koriym\HttpConstants\Method;
 
 http_response_code(StatusCode::BAD_REQUEST);
+header(ResponseHeaders::CONTENT_TYPE . ': ' . MediaType::APPLICATION_JSON_API);
+// Content-Type: application/vnd.api+json
 header(ResponseHeaders::CACHE_CONTROL . ': max-age=3600');
+// Cache-Control: max-age=3600
+
 ```
 
 ### Install
