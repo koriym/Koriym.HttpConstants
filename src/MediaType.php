@@ -7,9 +7,6 @@
  */
 namespace Koriym\HttpConstants;
 
-/**
- * Media Type
- */
 final class MediaType
 {
     // generic

@@ -10,7 +10,7 @@ namespace Koriym\HttpConstants;
 /**
  * HTTP request header field names.
  */
-final class RequestHeaders
+final class RequestHeader
 {
     // Standard (RFC) Request Fields
     const ACCEPT = 'Accept';
