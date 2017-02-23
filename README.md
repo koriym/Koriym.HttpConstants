@@ -8,8 +8,8 @@ Constants only.
 ```php
 
 use Koriym\HttpConstants\HttpStatusCode;
-use Koriym\HttpConstants\RequestHeaders;
-use Koriym\HttpConstants\ResponseHeaders;
+use Koriym\HttpConstants\RequestHeader;
+use Koriym\HttpConstants\ResponseHeader;
 use Koriym\HttpConstants\MediaType;
 use Koriym\HttpConstants\Method;
 
@@ -18,7 +18,6 @@ header(ResponseHeaders::CONTENT_TYPE . ': ' . MediaType::APPLICATION_JSON_API);
 // Content-Type: application/vnd.api+json
 header(ResponseHeaders::CACHE_CONTROL . ': max-age=3600');
 // Cache-Control: max-age=3600
-
 ```
 
 ### Install
