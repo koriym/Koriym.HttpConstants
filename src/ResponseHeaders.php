@@ -37,6 +37,7 @@ final class ResponseHeader
     const ETAG = 'ETag';
     const EXPIRES = 'Expires';
     const LAST_MODIFIED = 'Last-Modified';
+    const LOCATION = 'Location';
     const P3P = 'P3P';
     const PROXY_AUTHENTICATE = 'Proxy-Authenticate';
     const PUBLIC_KEY_PINS = 'Public-Key-Pins';
