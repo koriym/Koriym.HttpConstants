@@ -8,7 +8,7 @@
 namespace Koriym\HttpConstants;
 
 /**
- * HTTP Request Methods.
+ * HTTP Request Methods
  *
  * @see http://www.ietf.org/rfc/rfc7231.txt
  */
