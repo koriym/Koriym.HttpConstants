@@ -16,7 +16,7 @@ namespace Koriym\HttpConstants;
  * @see https://www.ietf.org/rfc/rfc2965.txt
  * @see https://www.ietf.org/rfc/rfc5998.txt
  */
-final class ResponseHeaders
+final class ResponseHeader
 {
     // Standard (RFC) Response Fields
     const ACCESS_CONTROL_ALLOW_ORIGIN = 'Access-Control-Allow-Origin';
