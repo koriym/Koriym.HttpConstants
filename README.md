@@ -25,3 +25,4 @@ header(ResponseHeader::CACHE_CONTROL . ': max-age=3600');
     $ composer require koriym/http-constants
 
 
+See also [PSR Http Message Util](https://github.com/php-fig/http-message-util).
