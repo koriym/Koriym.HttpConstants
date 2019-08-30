@@ -21,6 +21,7 @@ final class RequestHeader
     const AUTHORIZATION = 'Authorization';
     const CACHE_CONTROL = 'Cache-Control';
     const CONNECTION = 'Connection';
+    const CONTENT_TYPE = 'Content-Type';
     const COOKIE = 'Cookie';
     const CONTENT_LENGTH = 'Content-Length';
     const CONTENT_MD5 = 'Content-MD5';
