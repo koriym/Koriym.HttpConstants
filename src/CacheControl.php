@@ -42,4 +42,18 @@ final class CacheControl
      * @see http://bitsup.blogspot.com/2016/05/cache-control-immutable.html
      */
     public const IMMUTABLE = 'immutable';
+
+    /**
+     * When present in an HTTP response, the stale-while-revalidate Cache-Control extension indicates that caches MAY serve the response in which it appears after it becomes stale, up to the indicated number of seconds.
+     *
+     * @link https://datatracker.ietf.org/doc/html/rfc5861#section-3
+     */
+    public const STALE_WHILE_REVALIDATE = 'stale-while-revalidate';
+
+    /**
+     * The stale-if-error Cache-Control extension indicates that when an error is encountered, a cached stale response MAY be used to satisfythe request, regardless of other freshness information.
+     *
+     * @link  https://datatracker.ietf.org/doc/html/rfc5861#section-4
+     */
+    public const STALE_IF_ERROR = 'stale-if-error';
 }
