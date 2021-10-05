@@ -2,7 +2,7 @@
     "name": "koriym/http-constants",
     "description":"Constants for the HTTP protocol",
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=7.1.0"
     },
     "keywords":[
         "http",
