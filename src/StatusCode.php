@@ -1,10 +1,5 @@
 <?php
 
-/**
- * This file is part of the Koriym.HttpConstants.
- *
- * @license http://opensource.org/licenses/MIT MIT
- */
 namespace Koriym\HttpConstants;
 
 /**
