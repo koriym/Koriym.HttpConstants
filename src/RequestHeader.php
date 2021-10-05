@@ -39,6 +39,7 @@ final class RequestHeader
     public const USER_AGENT = 'User-Agent';
     public const VIA = 'Via';
     public const WARNING = 'Warning';
+
     // Common Non-Standard Request Fields
     public const DNT = 'DNT';
     public const FRONT_END_HTTPS = 'Front-End-Https';
