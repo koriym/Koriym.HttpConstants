@@ -16,6 +16,7 @@ final class RequestHeader
     public const AUTHORIZATION = 'Authorization';
     public const CACHE_CONTROL = 'Cache-Control';
     public const CONNECTION = 'Connection';
+    public const CONTENT_TYPE = 'Content-Type';
     public const COOKIE = 'Cookie';
     public const CONTENT_LENGTH = 'Content-Length';
     public const CONTENT_MD5 = 'Content-MD5';
