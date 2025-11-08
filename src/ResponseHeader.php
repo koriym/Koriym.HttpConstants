@@ -15,6 +15,11 @@ final class ResponseHeader
 {
     // Standard (RFC) Response Fields
     public const ACCESS_CONTROL_ALLOW_ORIGIN = 'Access-Control-Allow-Origin';
+    public const ACCESS_CONTROL_ALLOW_METHODS = 'Access-Control-Allow-Methods';
+    public const ACCESS_CONTROL_ALLOW_HEADERS = 'Access-Control-Allow-Headers';
+    public const ACCESS_CONTROL_ALLOW_CREDENTIALS = 'Access-Control-Allow-Credentials';
+    public const ACCESS_CONTROL_EXPOSE_HEADERS = 'Access-Control-Expose-Headers';
+    public const ACCESS_CONTROL_MAX_AGE = 'Access-Control-Max-Age';
     public const ACCEPT_PATCH = 'Accept-Patch';
     public const ACCEPT_RANGES = 'Accept-Ranges';
     public const AGE = 'Age';
@@ -26,6 +31,7 @@ final class ResponseHeader
     public const CONTENT_LANGUAGE = 'Content-Language';
     public const CONTENT_LENGTH = 'Content-Length';
     public const CONTENT_LOCATION = 'Content-Location';
+    public const CONTENT_RANGE = 'Content-Range';
     public const CONTENT_MD5 = 'Content-MD5';
     public const CONTENT_TYPE = 'Content-Type';
     public const DATE = 'Date';

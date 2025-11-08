@@ -61,6 +61,9 @@ final class StatusCode
     public const REQUESTED_RANGE_NOT_SATISFIABLE = 416;
     public const EXPECTATION_FAILED = 417;
     public const IM_A_TEAPOT = 418;
+    public const PRECONDITION_REQUIRED = 428;
+    public const TOO_MANY_REQUESTS = 429;
+    public const REQUEST_HEADER_FIELDS_TOO_LARGE = 431;
 
     // 50X Server Error
     public const INTERNAL_SERVER_ERROR = 500;
@@ -123,7 +126,12 @@ final class StatusCode
         422 => 'Unprocessable Entity',
         423 => 'Locked',
         424 => 'Failed Dependency',
-        // 427-499   Unassigned
+        // 425-427   Unassigned
+        428 => 'Precondition Required',
+        429 => 'Too Many Requests',
+        // 430       Unassigned
+        431 => 'Request Header Fields Too Large',
+        // 432-499   Unassigned
         500 => 'Internal Server Error',
         501 => 'Not Implemented',
         502 => 'Bad Gateway',
