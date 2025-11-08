@@ -6,7 +6,7 @@
     },
     "keywords":[
         "http",
-        "consntats"
+        "constants"
     ],
     "license": "MIT",
     "autoload":{

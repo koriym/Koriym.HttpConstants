@@ -13,10 +13,14 @@ final class RequestHeader
     public const ACCEPT_ENCODING = 'Accept-Encoding';
     public const ACCEPT_LANGUAGE = 'Accept-Language';
     public const ACCEPT_DATETIME = 'Accept-Datetime';
+    public const ACCESS_CONTROL_REQUEST_METHOD = 'Access-Control-Request-Method';
+    public const ACCESS_CONTROL_REQUEST_HEADERS = 'Access-Control-Request-Headers';
     public const AUTHORIZATION = 'Authorization';
     public const CACHE_CONTROL = 'Cache-Control';
     public const CONNECTION = 'Connection';
     public const CONTENT_TYPE = 'Content-Type';
+    public const CONTENT_ENCODING = 'Content-Encoding';
+    public const CONTENT_RANGE = 'Content-Range';
     public const COOKIE = 'Cookie';
     public const CONTENT_LENGTH = 'Content-Length';
     public const CONTENT_MD5 = 'Content-MD5';
@@ -26,7 +30,7 @@ final class RequestHeader
     public const HOST = 'Host';
     public const IF_MATCH = 'If-Match';
     public const IF_MODIFIED_SINCE = 'If-Modified-Since';
-    public const IF_NONE_MATCH = 'If-None-Matched';
+    public const IF_NONE_MATCH = 'If-None-Match';
     public const IF_RANGE = 'If-Range';
     public const IF_UNMODIFIED_SINCE = 'If-Unmodified-Since';
     public const MAX_FORWARDS = 'Max-Forwards';
