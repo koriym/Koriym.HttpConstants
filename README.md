@@ -7,7 +7,7 @@ This library includes commonly-used status codes, request methods, headers, medi
 
 ```php
 
-use Koriym\HttpConstants\HttpStatusCode;
+use Koriym\HttpConstants\StatusCode;
 use Koriym\HttpConstants\RequestHeader;
 use Koriym\HttpConstants\ResponseHeader;
 use Koriym\HttpConstants\MediaType;
