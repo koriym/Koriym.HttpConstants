@@ -51,7 +51,7 @@ final class RequestHeader
     public const PROXY_CONNECTION = 'Proxy-Connection';
     public const X_CSRF_TOKEN = 'X-Csrf-Token';
     public const X_FORWARDED_FOR = 'X-Forwarded-For';
-    public const X_FORWARDED_HOSTS = 'X-Forwarded-For';
+    public const X_FORWARDED_HOSTS = 'X-Forwarded-Host';
     public const X_FORWARDED_PROTO = 'X-Forwarded-Proto';
     public const X_HTTP_METHOD_OVERRIDE = 'X-Http-Method-Override';
     public const X_REQUESTED_WITH = 'X-Requested-With';
